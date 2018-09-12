@@ -37654,3 +37654,4 @@ Processing by ProductsController#show as JSON
   Parameters: {"id"=>"1186"}
   [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1186]]
 Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
